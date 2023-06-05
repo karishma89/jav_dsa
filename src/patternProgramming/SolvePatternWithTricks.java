@@ -2,10 +2,7 @@ package patternProgramming;
 
 public class SolvePatternWithTricks {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		SolvePatternWithTricks.pattern4(4);
-	}
+	
 	public static void pattern1(int n) {
 		for(int i =1;i <= n;i++) {
 			for(int j = 1; j <= (n+1)-i ;j++){
